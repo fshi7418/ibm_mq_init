@@ -62,8 +62,8 @@ public class JmsIOPutGet2 {
 	private static final int PORT = 1414; // Listener port for your queue manager
 	private static final String CHANNEL = "DEV.APP.SVRCONN"; // Channel name
 	private static final String QMGR = "QM_APPLE"; // Queue manager name
-	private static final String APP_USER = "app"; // User name that application uses to connect to MQ
-	private static final String APP_PASSWORD = "passw0rd"; // user password
+	private static final String APP_USER = "app"; // Windows user name that application uses to connect to MQ
+	private static final String APP_PASSWORD = "passw0rd"; // Windows user password associated with APP_USER
 	private static final String QUEUE_NAME = "Q1"; // Queue that the application uses to put and get messages to and from
 
 
