@@ -1,3 +1,0 @@
-<this>
-	is a test message 1122 009 291
-</this>

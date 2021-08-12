@@ -104,7 +104,7 @@ public class JmsIOPutGet2 {
 			destination = context.createQueue("queue:///" + QUEUE_NAME);
 
 			// Read text file
-			File myObj = new File("test1.txt");
+			File myObj = new File("test_message.txt");
 			Scanner myReader = new Scanner(myObj);
 			String msg = "";
 			while (myReader.hasNextLine()) {
